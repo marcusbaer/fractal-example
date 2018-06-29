@@ -16,3 +16,15 @@ Getting started with a new project.
 Build
 
 	fractal build
+
+Integrate into a project
+
+- https://fractal.build/guide/integration/including
+
+1. publish as npm module
+2. install `npm i @frctl/fractal`
+3. install your library `npm i hello-world-component-library`
+4. create fractal.js
+
+		// fractal.js
+		const fractal = module.exports = require('foocorp-component-library');
