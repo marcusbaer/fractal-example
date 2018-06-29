@@ -1,0 +1,10 @@
+{
+  "title": "Eingabe",
+  "status": "ready",
+  "preview": "@preview",
+  "context": {
+    "modifier": "default",
+    "name": "name",
+    "placeholder": "Platzhalter"
+  }
+}

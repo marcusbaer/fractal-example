@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* ATOMS */
+
+.button {
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button.button--primary {
+  background-color: #81d4fa;
+}
+
+.button.button--success {
+  background-color: lightgreen;
+}
+
+.navigation {
+  list-style: none;
+}
+
+.navigation li {
+  border-bottom: 2px solid red;
+  display: inline;
+}
+
+.navigation li a {
+  text-decoration: none;
+}
+
+/* MOLECULES */
+
+.search {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/* ORGANISMS */
+
+.header {
+  align-items: center;
+  background: darkgray;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  overflow: auto;
+}
+
+.header .header__logo {
+  left: 0;
+  margin: 0 0.5rem;
+  position: absolute;
+}
+
+.header .header__navigation li {
+  margin: 0.2rem;
+}
+
+.header .header__navigation li a {
+  color: black;
+}
+
+.header .header__search {
+  position: absolute;
+  right: 0;
+}
+
+/* TEMPLATES */
+
+.stage {
+  background-color: lightgray;
+
+  min-height: 320px;
+}
+
+.stage::after {
+  color: darkgray;
+  content: "Bühne";
+  font-family: monospace;
+  font-style: italic;
+  margin: 0.5rem;
+}

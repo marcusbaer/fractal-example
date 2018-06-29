@@ -1,0 +1,31 @@
+{
+  "title": "Button",
+  "status": "ready",
+  "preview": "@preview",
+  "notes": "This is a default button",
+  "context": {
+    "modifier": "default",
+    "title": "Standard"
+  },
+  "collated": true,
+  "variants": [
+    {
+      "name": "primary",
+      "status": "prototype",
+      "notes": "This is a primary button",
+      "context": {
+        "modifier": "primary",
+        "title": "Primary"
+      }
+    },
+    {
+      "name": "success",
+      "status": "wip",
+      "notes": "This is a success button",
+      "context": {
+        "modifier": "success",
+        "title": "Success"
+      }
+    }
+  ]
+}

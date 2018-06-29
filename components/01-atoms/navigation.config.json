@@ -1,0 +1,28 @@
+{
+  "title": "Navigation",
+  "status": "ready",
+  "notes": "Hauptnavigation",
+  "context": {
+    "modifier": "default",
+    "items": [{
+      "url": "#1",
+      "item": "Punkt 1"
+    }, {
+      "url": "#2",
+      "item": "Punkt 2"
+    }, {
+      "url": "#3",
+      "item": "Punkt 3"
+    }]
+  },
+  "variants": [
+    {
+      "name": "simple",
+      "status": "prototype",
+      "notes": "Simple navigation",
+      "context": {
+        "modifier": "simple"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Seitenkopf",
+  "status": "ready",
+  "context": {
+    "modifier": "default"
+  },
+  "display": {
+    "max-width": "1300px",
+    "min-width": "320px"
+  }
+}
