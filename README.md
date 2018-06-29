@@ -3,6 +3,8 @@
 - https://fractal.build/guide
 - https://github.com/frctl/fractal
 
+Setup: `npm i -g @frctl/fractal`
+
 Getting started with a new project.
 
 	fractal new hello-world
@@ -10,3 +12,7 @@ Getting started with a new project.
 	fractal start --sync
 
 	fractal start --watch
+
+Build
+
+	fractal build
