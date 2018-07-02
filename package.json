@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "main": "fractal.js",
   "private": true,
+  "scripts": {
+    "export": "node integration.js"
+  },
   "dependencies": {
     "@frctl/fractal": "^1.1.7"
   }

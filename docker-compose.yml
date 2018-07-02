@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  fractal-example:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - $PWD:/usr/src/app
+    ports:
+      - 3000:3000
